@@ -19,6 +19,7 @@ import ds from './image/ds.png'
 import cl from './image/cl.jpeg'
 import ps from './image/ps.jpeg'
 import cs from './image/cs.png'
+// import newguvi from './image/newguvi.jpeg'
 
 import './App.css'
 import About from './components/About'
@@ -28,6 +29,7 @@ import cartoon from './image/cartoon.png'
 
 
 function App() {
+  
   const data=[{
     title:"python",
     image:python,
@@ -102,6 +104,7 @@ const data4=[{
    <BrowserRouter>
    <div id="wrapper">
    <Nav />
+   
    <About />
    <Routes>
    
