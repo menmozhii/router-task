@@ -19,9 +19,11 @@ import ds from './image/ds.png'
 import cl from './image/cl.jpeg'
 import ps from './image/ps.jpeg'
 import cs from './image/cs.png'
-import cr from './image/cr.jpeg'
+
 import './App.css'
 import About from './components/About'
+import cartoon from './image/cartoon.png'
+
 
 
 
@@ -90,9 +92,9 @@ image:cs},
 
 ]
 const data4=[{
-  title:"",
-  des:"",
-  image:cr
+  title:"career",
+  des:"Opportunities don't happen, you create them.—Chris Grosser.",
+  image:cartoon
 }]
   
   return (

@@ -2,10 +2,15 @@ import React from 'react'
 
 function Career({data4}) {
   return<>
-  <h1>{data4.title}</h1>
-  <div className="card-careeer">
-  <div className="col-lg-6 order-lg-2 text-white showcase-img" style={{backgroundImage: `url('${data4.image}')`}}></div>
+<div className="all-card">
+    <div className="card" style={{"width":"18rem"}}>
+  <img src={data4.image} className="card-img-top" alt="..." width="100" height="100"/>
+  <div className="card-body">
+    <h3>{data4.title}</h3>
+    <p className="card-text">{data4.des}</p>
   </div>
+</div>
+</div>
 
   </>
 }
