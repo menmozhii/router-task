@@ -1,0 +1,10 @@
+h1{
+    color: green;
+    margin: 200px;
+    justify-content: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.figure{
+    margin: 40px;
+}

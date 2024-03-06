@@ -1,0 +1,27 @@
+.navbar{
+  margin: auto;
+  padding: auto;
+}
+.list{
+  /* display:inline; */
+  list-style: none;
+  text-align: justify;
+  color: black;
+
+}
+ li{
+  display: inline-block;
+   margin: right 20px; 
+   padding: 40px;
+   color: black;
+
+ }
+ 
+ 
+.all-card{
+ display:flex;
+ flex-direction:row;
+display: inline-block;
+margin: 10px;
+padding:10px;
+}
